@@ -1,4 +1,4 @@
-var dogButton = new Button('dog', 10, 10);
+var dogButton = new Button('Dog', 10, 10);
 
 function setup() {
   createCanvas(400, 400);
@@ -6,4 +6,6 @@ function setup() {
 
 function draw() {
   background(220);
+
+  dogButton.draw();
 }

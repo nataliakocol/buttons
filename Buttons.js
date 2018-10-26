@@ -6,5 +6,11 @@ class Button {
     this.y = y;
     console.log(this);
   }
-  //console.log(this);
+
+  draw() {
+    rect(this.x, this.y, 100, 30);
+    text(this.label, this.x+50, this.y+20);
+    textAlign(CENTER);
+  }
+  //console.log(x);
 }
